@@ -49,3 +49,27 @@ Members:
 
 ## Status
 Project under development for SRM Noob Hackfest 2026.
+
+## Demo Prototype (Current)
+
+This repository contains a basic Flask API prototype for resume screening.
+
+### How to run locally:
+
+1. Install dependencies:
+   pip install -r requirements.txt
+
+2. Run the server:
+   python app.py
+
+3. Test API:
+
+Endpoint: POST /analyze
+
+Sample JSON body:
+{
+  "resume": "Python SQL Flask",
+  "job_description": "Python SQL MachineLearning"
+}
+
+Note: This is a placeholder logic. AI/NLP integration will be implemented during the hackathon.
