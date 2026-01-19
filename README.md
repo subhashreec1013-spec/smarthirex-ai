@@ -7,6 +7,9 @@ Hackathon Project – SRM Noob Hackfest 2026
 ## Overview
 SmartHire AI is a web-based platform that uses Artificial Intelligence and Natural Language Processing (NLP) to automatically analyze resumes and match them with job descriptions. It helps recruiters shortlist candidates faster, more accurately, and in a bias-free manner.
 
+## Live Workflow
+Resume Input → AI Analysis (Gemini) → Match Score & Skill Comparison → Candidate Insight
+
 ## Problem Statement
 Recruiters receive hundreds of resumes for a single job role, making manual screening slow, inconsistent, and prone to bias. Traditional Applicant Tracking Systems rely mainly on keyword matching and often reject qualified candidates due to formatting or wording differences.
 
@@ -14,9 +17,9 @@ Recruiters receive hundreds of resumes for a single job role, making manual scre
 SmartHire AI extracts skills, education, and experience from resumes, performs semantic matching with job requirements, generates explainable match scores, highlights skill gaps, and ranks candidates based on relevance using AI.
 
 ## Key Features
-- Resume upload and parsing (PDF)
+- Web-based resume analyzer
 - NLP-based skill extraction
-- Semantic job matching
+- Semantic job matching using AI
 - Explainable AI scoring
 - Skill gap analysis with learning suggestions
 - Candidate ranking dashboard
@@ -26,8 +29,8 @@ SmartHire AI extracts skills, education, and experience from resumes, performs s
 ## Technology Stack
 - Frontend: HTML, CSS, JavaScript  
 - Backend: Python (Flask)  
-- AI / NLP: Gemini API or OpenAI API  
-- Resume Parsing: PyPDF2 / pdfplumber  
+- AI / NLP: Google Gemini API (implemented)  
+- Resume Parsing: PyPDF2 / pdfplumber (planned)  
 - Database: SQLite / Firebase (optional)
 
 ## Impact
@@ -38,38 +41,30 @@ SmartHire AI extracts skills, education, and experience from resumes, performs s
 
 ## Team
 
-Team Name: <Hack Nova>
+Team Name: Hack Nova
 
 Members:
-- Subha Shree C
-- Shiyam Shankar
-- Sundhares
-- Abdul Wahid S
-- Mohammed Saad M
+- Subha Shree C  
+- Shiyam Shankar  
+- Sundhares  
+- Abdul Wahid S  
+- Mohammed Saad M  
 
 ## Status
 Project under development for SRM Noob Hackfest 2026.
 
-## Demo Prototype (Current)
+## AI-Powered Web Demo
 
-This repository contains a basic Flask API prototype for resume screening.
+This project includes a Flask-based web application integrated with Google's Gemini AI for semantic resume–job matching.
 
-### How to run locally:
+### Features
+- Web UI for resume & job description input  
+- AI-based semantic analysis using Gemini  
+- Match score, matched skills, missing skills, and explanation  
+- End-to-end working prototype  
+
+### How to run locally
 
 1. Install dependencies:
+   ```bash
    pip install -r requirements.txt
-
-2. Run the server:
-   python app.py
-
-3. Test API:
-
-Endpoint: POST /analyze
-
-Sample JSON body:
-{
-  "resume": "Python SQL Flask",
-  "job_description": "Python SQL MachineLearning"
-}
-
-Note: This is a placeholder logic. AI/NLP integration will be implemented during the hackathon.
