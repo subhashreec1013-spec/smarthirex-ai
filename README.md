@@ -1,11 +1,11 @@
-# SmartHire AI
+# SmartHireX AI
 
-Intelligent Resume Screening & HR Automation using NLP
+Intelligent Resume Screening & Bias-Free HR Automation using NLP
 
 Hackathon Project – SRM Noob Hackfest 2026
 
 ## Overview
-SmartHire AI is a web-based platform that uses Artificial Intelligence and Natural Language Processing (NLP) to automatically analyze resumes and match them with job descriptions. It helps recruiters shortlist candidates faster, more accurately, and in a bias-free manner.
+SmartHireX AI is a web-based platform that uses Artificial Intelligence and Natural Language Processing (NLP) to automatically analyze resumes and match them with job descriptions. It helps recruiters shortlist candidates faster, more accurately, and in a bias-free manner.
 
 ## Live Workflow
 Resume Input → AI Analysis (Gemini) → Match Score & Skill Comparison → Candidate Insight
@@ -30,14 +30,12 @@ SmartHire AI extracts skills, education, and experience from resumes, performs s
 
 
 ## Key Features
-- Web-based resume analyzer  
-- NLP-based skill extraction  
+- Resume Upload & Parsing  
+- Explainable AI Scoring 
 - Semantic job matching using AI  
-- Explainable AI scoring  
+- Candidate ranking dashboard
 - Skill gap analysis with learning suggestions  
-- Candidate ranking dashboard  
-- Bias-free screening mode  
-- Recruiter-customizable scoring weights  
+- Bias-free screening mode   
 
 
 ## Technology Stack
